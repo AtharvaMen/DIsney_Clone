@@ -1,4 +1,4 @@
-import React,{ useState } from "react";
+import { useState } from "react";
 import logo from "./../assets/images/logo.png";
 import {
   HiHome,
@@ -47,7 +47,7 @@ const Header = () => {
             <HeaderItem name={item.name} Icon={item.icon} />
           ))}
         </div>
-        <div className="flex md:hidden gap-5">
+        <div className="flex md:hidden gap-5 py-6">
           {menu.map(
             (item, index) =>
               index < 3 && (<HeaderItem name={""} Icon={item.icon} />

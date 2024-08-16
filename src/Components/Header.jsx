@@ -40,8 +40,8 @@ const Header = () => {
   ];
   return (
     <div className="flex items-center justify-between">
-      <div className="flex  gap-8">
-        <img src={logo} className="w-[80px] md:w-[115px] object-cover" />
+      <div className="flex gap-8">
+        <img src={logo} className='w-[80px] md:w-[115px] object-cover' />
         <div className="hidden md:flex gap-8 md:pt-6">
           {menu.map((item) => (
             <HeaderItem name={item.name} Icon={item.icon} />

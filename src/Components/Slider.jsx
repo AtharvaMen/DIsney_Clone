@@ -17,10 +17,10 @@ const Slider = () => {
   };
 
   const sliderRight = (element) => {
-    element.scrollLeft += screenWidth - 160;
+    element.scrollLeft += screenWidth - 157;
   };
   const sliderLeft = (element) => {
-    element.scrollLeft -= screenWidth - 160;
+    element.scrollLeft -= screenWidth - 157;
   };
   return (
     <div>
